@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+<article>
+  <header>
+    <h1>HTML SEMANTICA</h1>
+    <p>EJEMPLOS DE ALGUNOS ELEMENTOS SEMANTICOS DEL HTML </p>
+  </header>
+  <p>LA MISION ES UTILIZAR ALGUNOS ELEMENTOS DE PRUEBA QUE SON IMPORTANTES EN EL ARMADO DE UNA PAGINA WEB EN HTML5</p>
+</article>
+<aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+<figure>
+  <img src="cabra.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Alumno: Guido Rauber </figcaption>
+</figure>
+<footer>
+  <p>Autor: GUIDO RAUBER</p>
+  <p><a href="mailto:guidomrauber@gmail.com">guidomrauber@gmail.com</a></p>
+</footer>
+</body>
+</html>
